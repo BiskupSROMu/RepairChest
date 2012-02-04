@@ -25,9 +25,9 @@ public class RepairChestPlugin extends JavaPlugin {
 	protected Integer currency = 266; // Gold Ingot
 	protected Material currencyMaterial = Material.GOLD_INGOT;
 	protected String currencyName ="g";
-	protected double baseCost = 0.01; // 100 damage = 1 this.currency
+	protected double baseCost = 0.00666; // 100 damage = 1 this.currency
 	protected boolean verbose = false;
-	protected boolean partialRepair = false;
+	protected boolean partialRepair = true;
 	protected boolean distributePartialRepair = true;
 	protected String currencyString = "???";
 	
